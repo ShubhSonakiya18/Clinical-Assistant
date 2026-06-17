@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+*.env
+!.env.example
+!backend/.env.example
+
+# Alembic
+backend/migrations/versions/*.pyc
+
+# Node
+node_modules/
+.next/
+out/
+.npm
+*.log
+npm-debug.log*
+
+# Environment files — never commit real secrets
+*.env
+*.env.local
+*.env.production
+!.env.example
+!frontend/.env.local.example
+!backend/.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker volumes
+postgres_data/
+
+# WeasyPrint / PDF cache
+*.pdf
+
+# Sentry
+.sentryclirc
